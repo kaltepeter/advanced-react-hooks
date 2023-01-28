@@ -34,7 +34,7 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "HTTPS=true SSL_CRT_FILE=localhost.pem SSL_KEY_FILE=localhost-key.pem craco start",
     "build": "craco build",
     "test": "craco test",
     "test:coverage": "npm run test -- --watchAll=false",
